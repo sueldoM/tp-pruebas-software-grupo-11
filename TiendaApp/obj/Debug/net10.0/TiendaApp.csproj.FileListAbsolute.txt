@@ -1,0 +1,11 @@
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/bin/Debug/net10.0/TiendaApp.deps.json
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/bin/Debug/net10.0/TiendaApp.dll
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/bin/Debug/net10.0/TiendaApp.pdb
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.AssemblyInfoInputs.cache
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.AssemblyInfo.cs
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.csproj.CoreCompileInputs.cache
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.dll
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/refint/TiendaApp.dll
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/TiendaApp.pdb
+/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/obj/Debug/net10.0/ref/TiendaApp.dll

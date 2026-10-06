@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1791317355" lines-covered="53" lines-valid="53" branches-covered="12" branches-valid="12">
+  <sources>
+    <source>/home/miguel/Documentos/Ingenieria Software II/TP1/TP1/TiendaApp/</source>
+  </sources>
+  <packages>
+    <package name="TiendaApp" line-rate="1" branch-rate="1" complexity="19">
+      <classes>
+        <class name="TiendaApp.Producto" filename="Producto.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Nombre" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="92" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Precio" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="70" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Categoria" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="50" branch="False" />
+              </lines>
+            </method>
+            <method name="ActualizarPrecio" signature="(System.Decimal)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="18" hits="7" branch="False" />
+                <line number="19" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="2" branch="False" />
+                <line number="21" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Decimal,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="51" branch="False" />
+                <line number="10" hits="51" branch="False" />
+                <line number="11" hits="51" branch="False" />
+                <line number="12" hits="51" branch="False" />
+                <line number="13" hits="51" branch="False" />
+                <line number="14" hits="51" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="92" branch="False" />
+            <line number="6" hits="70" branch="False" />
+            <line number="7" hits="50" branch="False" />
+            <line number="18" hits="7" branch="False" />
+            <line number="19" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="20" hits="2" branch="False" />
+            <line number="21" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+            <line number="9" hits="51" branch="False" />
+            <line number="10" hits="51" branch="False" />
+            <line number="11" hits="51" branch="False" />
+            <line number="12" hits="51" branch="False" />
+            <line number="13" hits="51" branch="False" />
+            <line number="14" hits="51" branch="False" />
+          </lines>
+        </class>
+        <class name="TiendaApp.Tienda" filename="Tienda.cs" line-rate="1" branch-rate="1" complexity="13">
+          <methods>
+            <method name="get_Inventario" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="102" branch="False" />
+              </lines>
+            </method>
+            <method name="AgregarProducto" signature="(TiendaApp.Producto)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="46" branch="False" />
+                <line number="10" hits="46" branch="False" />
+                <line number="11" hits="46" branch="False" />
+              </lines>
+            </method>
+            <method name="BuscarProducto" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="15" hits="20" branch="False" />
+                <line number="16" hits="131" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="54" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="43" branch="False" />
+                <line number="18" hits="43" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="15" branch="False" />
+                <line number="20" hits="15" branch="False" />
+                <line number="22" hits="28" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="EliminarProducto" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="AplicarDescuento" signature="(System.String,System.Decimal)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="37" hits="7" branch="False" />
+                <line number="38" hits="7" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="2" branch="False" />
+                <line number="41" hits="2" branch="False" />
+                <line number="42" hits="2" branch="False" />
+                <line number="45" hits="5" branch="False" />
+                <line number="46" hits="4" branch="False" />
+                <line number="47" hits="4" branch="False" />
+                <line number="48" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="CalcularTotalCarrito" signature="(System.Collections.Generic.IEnumerable`1&lt;System.String&gt;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="52" hits="5" branch="False" />
+                <line number="53" hits="5" branch="False" />
+                <line number="55" hits="32" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="56" hits="9" branch="False" />
+                <line number="57" hits="9" branch="False" />
+                <line number="58" hits="8" branch="False" />
+                <line number="60" hits="4" branch="False" />
+                <line number="61" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="102" branch="False" />
+            <line number="9" hits="46" branch="False" />
+            <line number="10" hits="46" branch="False" />
+            <line number="11" hits="46" branch="False" />
+            <line number="15" hits="20" branch="False" />
+            <line number="16" hits="131" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="54" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="17" hits="43" branch="False" />
+            <line number="18" hits="43" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="39" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="15" branch="False" />
+            <line number="20" hits="15" branch="False" />
+            <line number="22" hits="28" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="15" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="37" hits="7" branch="False" />
+            <line number="38" hits="7" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="2" branch="False" />
+            <line number="41" hits="2" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="45" hits="5" branch="False" />
+            <line number="46" hits="4" branch="False" />
+            <line number="47" hits="4" branch="False" />
+            <line number="48" hits="4" branch="False" />
+            <line number="52" hits="5" branch="False" />
+            <line number="53" hits="5" branch="False" />
+            <line number="55" hits="32" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="53" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="56" hits="9" branch="False" />
+            <line number="57" hits="9" branch="False" />
+            <line number="58" hits="8" branch="False" />
+            <line number="60" hits="4" branch="False" />
+            <line number="61" hits="4" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
